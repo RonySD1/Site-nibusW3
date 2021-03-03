@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.W3-menuTopo{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(wallpaperT3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .W3-logo{
+    position: relative;
+    font-size: 2em;
+    color: rgb(146, 146, 146);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header .W3-navigation{
+    position: relative;
+    display: flex;
+}
+
+header .W3-navigation li{
+    list-style: none;
+}
+
+header .W3-navigation li a{
+    display: inline-block;
+    color: #fff;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .W3-navigation li a:hover{
+    color: rgb(226, 4, 4);
+}
+
+.W3-content{
+    max-width: 600px;
+}
+
+.W3-content .W3-contentBx h1{
+    font-size: 4em;
+    color: rgba(255, 0, 0, 0.582);
+    line-height: 1em;
+}
+
+.W3-content .W3-contentBx p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.W3-content .W3-contentBx a{
+    display: inline-block;
+    padding: 10px 30px;
+    background: rgb(177, 2, 45);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.W3-footer{
+    background: #054b7a;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.W3-footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.W3-footer ul li{
+    list-style: none;
+}
+
+.W3-footer ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.W3-footer ul li a img{
+    filter: invert(1);
+}

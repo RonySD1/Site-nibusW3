@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .W3-logo{
+    position: relative;
+    font-size: 2.2em;
+    color:  rgba(255, 255, 255, 0.712);
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+    padding: 30px 100px;
+}
+
+header .W3-navigation{
+    position: relative;
+    display: flex;
+}
+
+header .W3-navigation li{
+    list-style: none;
+}
+
+header .W3-navigation li a{
+    display: inline-block;
+    color: #111;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .W3-navigation li a:hover{
+    color: rgb(226, 4, 4);
+}
+.W3-contratFun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(30deg, black, grey);
+}
+
+.W3-container{
+    position: relative;
+    padding: 40px 40px;
+    background: #fff;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.5);
+}
+
+.W3-container h2{
+    color: #111;
+    margin-bottom: 45px;
+    line-height: 1em;
+    font-weight: 600;
+    padding-left: 10px;
+    border-left: 5px solid grey;
+}
+
+.W3-container .W3-inputBox{
+    position: relative;
+    width: 300px;
+    height: 46px;
+    margin-bottom: 35px;
+}
+
+.W3-container .W3-inputBox:last-child{
+    margin-bottom: 0;
+}
+
+.W3-container .W3-inputBox input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: 1px solid #111;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    color: #111;
+    font-weight: 300;
+}
+
+.W3-container .W3-inputBox span{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    padding: 10px;
+    display: inline-block;
+    font-size: 16px;
+    color: #111;
+    font-weight: 300;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.W3-container .W3-inputBox input:focus ~ span,
+.W3-container .W3-inputBox input:valid ~ span{
+    transform: translateX(-10px) translateY(-32px);
+    font-size: 12px;
+}
+
+.W3-container .W3-inputBox input[type="submit"]{
+    background: rgb(161, 1, 1);
+    color: #fff;
+    border: none;
+    max-width: 120px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.W3-container .W3-inputBox input[type="submit"]:hover{
+    background: rgb(119, 0, 0);
+}
+
+.W3-footer{
+    background: #054b7a;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.W3-footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.W3-footer ul li{
+    list-style: none;
+}
+
+.W3-footer ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.W3-footer ul li a img{
+    filter: invert(1);
+}

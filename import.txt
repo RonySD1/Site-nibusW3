@@ -1,0 +1,7 @@
+Ic Marktes demo:
+
+
+Trading Platform:	MT5
+Login:	50442769
+Password:	yurSmtqu
+Server:	ICMarketsSC-Demo

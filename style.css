@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.W3-menuTopo{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: url(wallpaperF8.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 100px;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .W3-logo{
+    position: relative;
+    font-size: 2em;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+header .W3-navigation{
+    position: relative;
+    display: flex;
+}
+
+header .W3-navigation li{
+    list-style: none;
+}
+
+header .W3-navigation li a{
+    display: inline-block;
+    color: #fff;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+header .W3-navigation li a:hover{
+    color: rgb(226, 4, 4);
+}
+
+.W3-content{
+    max-width: 600px;
+}
+
+.W3-content .W3-contentBx h1{
+    font-size: 4em;
+    color: black;
+    line-height: 1em;
+}
+
+.W3-content .W3-contentBx p{
+    font-size: 1.2em;
+    color: #fff;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.W3-content .W3-contentBx a{
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: rgb(143, 0, 0);
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.W3-menuTab{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+    padding: 80px 200px;
+}
+
+.W3-menuTab h2{
+    font-size: 2.8em;
+    color: black;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.W3-content-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+
+.W3-content-table thead tr{
+    background-color: rgb(143, 0, 0);
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.W3-content-table th,
+.W3-content-table td{
+    padding: 12px 15px;
+}
+
+.W3-content-table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.W3-content-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+
+.W3-content-table tbody tr:last-of-type{
+    border-bottom: 2px solid rgb(177, 2, 45);
+}
+
+.W3-content-table tbody tr.active-row{
+    font-weight: bold;
+    color: rgba(207, 0, 0, 0.836);
+}
+
+.W3-footer{
+    background: #054b7a;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.W3-footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.W3-footer ul li{
+    list-style: none;
+}
+
+.W3-footer ul li a{
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.W3-footer ul li a img{
+    filter: invert(1);
+}
